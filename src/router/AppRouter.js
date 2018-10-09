@@ -8,9 +8,9 @@ import Dashboard from './../components/Dashboard';
 import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
 import NotFound from './../components/NotFound';
-import { createBrowserHistory } from 'history';
+import createHistory from 'history/createBrowserHistory';
 
-export const history = createBrowserHistory({
+export const history = createHistory({
     basename: process.env.PUBLIC_URL
 });
 
