@@ -1,0 +1,15 @@
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const REMOVE_CURRENT_USER = 'REMOVE_CURRENT_USER';
+export const REGISTER_USER = 'REGISTER_USER';
+export const LOGIN_USER = 'LOGIN_USER';
+export const LOGOUT_USER = 'LOGOUT_USER';
+export const SET_TODOS = 'SET_TODOS';
+export const ADD_TODO = 'ADD_TODO';
+export const REMOVE_TODO = 'REMOVE_TODO';
+export const SET_LOADING_TRUE = 'SET_LOADING_TRUE';
+export const SET_LOADING_FALSE = 'SET_LOADING_FALSE';
+export const SORT_BY_ASC = 'SORT_BY_ASC';
+export const SORT_BY_DSC = 'SORT_BY_DSC';
+export const SET_TEXT_FILTER = 'SET_TEXT_FILTER';
+export const SET_ERROR = 'SET_ERROR';
+export const SET_NO_ERROR = 'SET_NO_ERROR';
