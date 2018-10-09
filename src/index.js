@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 import { setAuthToken } from './utils/setAuthToken';
 import jwt_decode from 'jwt-decode';
 import { setCurrentUser, removeCurrentUser } from './actions/authAction';
+import { history } from './router/AppRouter';
 
 const store = configureStore();
 
@@ -30,6 +31,11 @@ if (localStorage.getItem('todoToken')) {
     console.log(decoded);
     store.dispatch(setCurrentUser(decoded._id));
     renderApp();
+
+    if (history.location.pathname === '/') {
+        history.push('/dashboard');
+    }
+
 } else {
     store.dispatch(removeCurrentUser());
     renderApp();

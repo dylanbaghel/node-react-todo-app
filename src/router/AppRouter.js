@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'react-router-dom';
 import Header from './../components/Header';
 import Login from './../components/Login';
 import SignUp from './../components/SignUp';
@@ -8,11 +8,16 @@ import Dashboard from './../components/Dashboard';
 import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
 import NotFound from './../components/NotFound';
+import { createBrowserHistory } from 'history';
+
+export const history = createBrowserHistory({
+    basename: process.env.PUBLIC_URL
+});
 
 const AppRouter = () => {
     return (
-        <BrowserRouter
-            basename={process.env.PUBLIC_URL}
+        <Router
+            history={history}
         >
             <div>
                 <Header />
@@ -38,7 +43,7 @@ const AppRouter = () => {
                     />
                 </Switch>
             </div>
-        </BrowserRouter>
+        </Router>
     );
 };
 
