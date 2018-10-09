@@ -11,7 +11,9 @@ import NotFound from './../components/NotFound';
 
 const AppRouter = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter
+            basename={process.env.PUBLIC_URL}
+        >
             <div>
                 <Header />
                 <Switch>
