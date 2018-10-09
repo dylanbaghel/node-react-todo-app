@@ -14,7 +14,7 @@ class Dashboard extends React.Component {
 
         this.loadingJSX = (
             <div className="preloader">
-                <img src={preLoader} />
+                <img src={preLoader} alt="Preloader" />
             </div>
         );
     }

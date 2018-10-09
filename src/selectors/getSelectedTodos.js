@@ -4,7 +4,7 @@ export const getSelectedTodos = (todos, filters) => {
     }).sort((a, b) => {
         if (filters.sortBy === 'asc') {
             return a.text.toLowerCase().localeCompare(b.text.toLowerCase());
-        } else if (filters.sortBy === 'dsc') {
+        } else {
             return b.text.toLowerCase().localeCompare(a.text.toLowerCase());
         }
     });
