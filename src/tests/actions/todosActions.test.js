@@ -38,11 +38,10 @@ describe('Todos Action Generators Tests', () => {
     });
 
     test('should setup add todo action object', () => {
-        const todo = 'Guts Over Fear';
-        const action = addTodo(todo);
+        const action = addTodo(todos[0]);
         expect(action).toEqual({
             type: ADD_TODO,
-            todo
+            todo: todos[0]
         });
     });
 });

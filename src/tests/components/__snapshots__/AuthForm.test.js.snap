@@ -31,7 +31,7 @@ exports[`should render auth form component correctly 1`] = `
         className="form-control"
         onChange={[Function]}
         placeholder="Password"
-        type="text"
+        type="password"
         value=""
       />
       <div
@@ -82,7 +82,7 @@ exports[`should render error for invalid data 1`] = `
         className="form-control"
         onChange={[Function]}
         placeholder="Password"
-        type="text"
+        type="password"
         value=""
       />
       <div
@@ -135,7 +135,7 @@ exports[`should render error for invalid data 2`] = `
         className="form-control"
         onChange={[Function]}
         placeholder="Password"
-        type="text"
+        type="password"
         value=""
       />
       <div
