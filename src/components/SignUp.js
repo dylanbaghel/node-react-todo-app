@@ -5,7 +5,7 @@ import AuthForm from './AuthForm';
 import { registerUser } from './../actions/authAction';
 import Error from './Error';
 
-const SignUp = (props) => {
+export const SignUp = (props) => {
     return (
         <div className="container">
             {props.hasErrors && <Error />}

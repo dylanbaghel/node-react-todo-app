@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render todo with todo data 1`] = `
+<div
+  className="card mb-1"
+>
+  <div
+    className="card-body d-flex justify-content-between"
+  >
+    <div>
+      rent
+    </div>
+    <i
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      X
+    </i>
+  </div>
+</div>
+`;

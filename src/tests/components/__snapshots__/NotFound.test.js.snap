@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header Component correctly 1`] = `
+<div
+  className="container mx-auto"
+>
+  <div
+    className="card card-body"
+  >
+    <h2>
+      404 | Not Found 
+      <Link
+        replace={false}
+        to="/"
+      >
+        Go Home
+      </Link>
+    </h2>
+  </div>
+</div>
+`;

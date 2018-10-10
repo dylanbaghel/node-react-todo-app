@@ -27,12 +27,13 @@ class TodoForm extends React.Component {
             }));
             return;
         }
-        this.setState(() => ({
-            text: ''
-        }));
         this.props.onFormSubmit({
             text: this.state.text
         });
+        this.setState(() => ({
+            text: '',
+            errors: {}
+        }));
     }
 
     render() {

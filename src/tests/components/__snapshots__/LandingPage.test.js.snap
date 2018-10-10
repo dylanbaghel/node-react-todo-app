@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render landing page correctly 1`] = `
+<div
+  className="container text-center d-flex flex-column justify-content-center landing"
+>
+  <h1>
+    Welcome To Todo App
+  </h1>
+  <p>
+    Created By Abhishek Baghel
+  </p>
+  <div
+    className="d-flex justify-content-center"
+  >
+    <Link
+      className="btn btn-primary mr-1"
+      replace={false}
+      to="/login"
+    >
+      Login
+    </Link>
+    <Link
+      className="btn btn-danger ml-1"
+      replace={false}
+      to="/signup"
+    >
+      Sign Up
+    </Link>
+  </div>
+</div>
+`;

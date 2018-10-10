@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const Error = (props) => {
+export const Error = (props) => {
     return (
         <div className="alert alert-danger">
             {props.error.error_text}

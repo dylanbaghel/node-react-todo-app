@@ -8,7 +8,7 @@ import AddTodo from './AddTodo';
 import FilterSort from './FilterSort';
 import { getSelectedTodos } from './../selectors/getSelectedTodos';
 
-class Dashboard extends React.Component {
+export class Dashboard extends React.Component {
     constructor(props) {
         super(props);
 

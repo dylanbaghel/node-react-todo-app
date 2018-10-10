@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import { startDeleteTodo } from './../actions/todosActions';
 
-const Todo = (props) => {
+export const Todo = (props) => {
     return (
         <div className="card mb-1">
             <div className="card-body d-flex justify-content-between">

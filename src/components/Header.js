@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { logoutUser } from './../actions/authAction';
 
-const Header = (props) => {
+export const Header = (props) => {
     const publicLinks = (
         <ul className="navbar-nav ml-auto">
             <li className="nav-item">

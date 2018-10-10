@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render auth form component correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        onKeyUp={[Function]}
+        placeholder="Email"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback"
+      >
+        <small
+          className="text-danger"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Password"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback"
+      >
+        <small
+          className="text-danger"
+        />
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render error for invalid data 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        onKeyUp={[Function]}
+        placeholder="Email"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback"
+      >
+        <small
+          className="text-danger"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Password"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback"
+      >
+        <small
+          className="text-danger"
+        />
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render error for invalid data 2`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control is-invalid"
+        onChange={[Function]}
+        onKeyUp={[Function]}
+        placeholder="Email"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback"
+      >
+        <small
+          className="text-danger"
+        >
+          Please Enter Email
+        </small>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Password"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback"
+      >
+        <small
+          className="text-danger"
+        />
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

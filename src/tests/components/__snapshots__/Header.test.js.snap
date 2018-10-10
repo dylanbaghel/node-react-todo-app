@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header correctly with no authentication showing public links 1`] = `
+<nav
+  className="navbar navbar-expand navbar-dark bg-dark mb-5"
+>
+  <div
+    className="container"
+  >
+    <Link
+      className="navbar-brand"
+      replace={false}
+      to="/"
+    >
+      Todo
+    </Link>
+    <ul
+      className="navbar-nav ml-auto"
+    >
+      <li
+        className="nav-item"
+      >
+        <Link
+          className="nav-link"
+          replace={false}
+          to="/login"
+        >
+          Login
+        </Link>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <Link
+          className="nav-link"
+          replace={false}
+          to="/signup"
+        >
+          Sign Up
+        </Link>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
+
+exports[`should render header with authentication showing private links and logout 1`] = `
+<nav
+  className="navbar navbar-expand navbar-dark bg-dark mb-5"
+>
+  <div
+    className="container"
+  >
+    <Link
+      className="navbar-brand"
+      replace={false}
+      to="/"
+    >
+      Todo
+    </Link>
+    <ul
+      className="navbar-nav ml-auto"
+    >
+      <li
+        className="nav-item"
+      >
+        <Link
+          className="nav-link"
+          onClick={[Function]}
+          replace={false}
+          to="/"
+        >
+          Logout
+        </Link>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

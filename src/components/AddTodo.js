@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import TodoForm from './TodoForm';
 import { startAddTodo } from './../actions/todosActions';
 
-const AddTodo = (props) => {
+export const AddTodo = (props) => {
     return (
         <div>
             <TodoForm 

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render error component with error value 1`] = `
+<div
+  className="alert alert-danger"
+>
+  Error Occured
+</div>
+`;

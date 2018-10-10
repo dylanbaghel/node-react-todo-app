@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render filter sort component correctly 1`] = `
+<div
+  className="d-flex justify-content-between"
+>
+  <div
+    className="form-group w-75"
+  >
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Search Todo...."
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <select
+      className="form-control"
+      onChange={[Function]}
+    >
+      <option
+        value="asc"
+      >
+        A-Z
+      </option>
+      <option
+        value="dsc"
+      >
+        Z-A
+      </option>
+    </select>
+  </div>
+</div>
+`;

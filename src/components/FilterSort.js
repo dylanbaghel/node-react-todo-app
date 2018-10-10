@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import { setTextFilter, sortByASC, sortByDSC } from './../actions/filterAction';
 
-const FilterSort = (props) => {
+export const FilterSort = (props) => {
     return (
         <div className="d-flex justify-content-between">
             <div className="form-group w-75">

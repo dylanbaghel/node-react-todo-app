@@ -54,7 +54,9 @@ class AuthForm extends React.Component {
             }));
             return;
         }
-
+        this.setState(() => ({
+            errors: {}
+        }));
         this.props.onSubmit({
             email: this.state.email,
             password: this.state.password
@@ -93,7 +95,7 @@ class AuthForm extends React.Component {
                     </div>
                     <div className="form-group">
                         <input
-                            type="text"
+                            type="password"
                             placeholder="Password"
                             className={classnames('form-control', {
                                 'is-invalid': this.state.errors.password

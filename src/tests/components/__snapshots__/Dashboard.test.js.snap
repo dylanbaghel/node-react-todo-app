@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render dashboard todo list page with no todos and loading todos 1`] = `
+<div
+  className="preloader"
+>
+  <img
+    alt="Preloader"
+    src="preloader.gif"
+  />
+</div>
+`;
+
+exports[`should render dashboard todo list page with no todos and no loading 1`] = `
+<div
+  className="container mx-auto w-75"
+>
+  <div
+    className="card card-body mb-3"
+  >
+    <Connect(FilterSort) />
+  </div>
+  <div
+    className="card  mb-1"
+  >
+    <div
+      className="card-header"
+    >
+      Todos
+    </div>
+    <div
+      className="card-body"
+    >
+      <h1>
+        No Todos Found
+      </h1>
+    </div>
+  </div>
+  <div
+    className="card card-body mb-5"
+  >
+    <Connect(AddTodo) />
+  </div>
+</div>
+`;
+
+exports[`should render dashboard todo list page with todos and no loading 1`] = `
+<div
+  className="container mx-auto w-75"
+>
+  <div
+    className="card card-body mb-3"
+  >
+    <Connect(FilterSort) />
+  </div>
+  <div
+    className="card  mb-1"
+  >
+    <div
+      className="card-header"
+    >
+      Todos
+    </div>
+    <div
+      className="card-body"
+    >
+      <Connect(Todo)
+        key="abcd123"
+        todo={
+          Object {
+            "_id": "abcd123",
+            "completed": false,
+            "completedAt": 0,
+            "text": "rent",
+          }
+        }
+      />
+      <Connect(Todo)
+        key="abcd1234"
+        todo={
+          Object {
+            "_id": "abcd1234",
+            "completed": true,
+            "completedAt": 0,
+            "text": "water bill",
+          }
+        }
+      />
+      <Connect(Todo)
+        key="abcd12345"
+        todo={
+          Object {
+            "_id": "abcd12345",
+            "completed": false,
+            "completedAt": 0,
+            "text": "gas bill",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="card card-body mb-5"
+  >
+    <Connect(AddTodo) />
+  </div>
+</div>
+`;
